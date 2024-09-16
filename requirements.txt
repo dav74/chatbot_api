@@ -1,0 +1,5 @@
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-groq
+python-dotenv
+fastapi[all]
