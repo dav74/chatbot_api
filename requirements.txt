@@ -1,5 +1,5 @@
 llama-index
-llama-index-embeddings-huggingface
+llama-index-embeddings-huggingface-api
 llama-index-llms-groq
 python-dotenv
 fastapi[all]

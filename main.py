@@ -1,7 +1,8 @@
 from dotenv import load_dotenv
 import os
 from llama_index.core import VectorStoreIndex, StorageContext, SimpleDirectoryReader, load_index_from_storage
-from llama_index.embeddings.huggingface import HuggingFaceInferenceAPIEmbedding
+from llama_index.embeddings.huggingface_api import HuggingFaceInferenceAPIEmbedding
+
 from llama_index.llms.groq import Groq
 from llama_index.core import Settings
 from fastapi import FastAPI
