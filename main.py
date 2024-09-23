@@ -64,7 +64,7 @@ def get_chat_history(chat_messages):
     chat_history = []  
     for message in chat_messages:  
         chat_history.append(ChatMessage(content=message.content, role=message.role))  
-    return chat_history
+    return chat_history[-4:]
 
 @app.post('/request')
 def request(req: Request):
